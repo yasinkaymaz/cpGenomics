@@ -1,0 +1,9 @@
+species:
+    - Lens_lamottei
+    - Lens_tomentosus
+scaffolds:
+    Path1: Lens_lamottei.plastome/embplant_pt.K115.complete.graph1.1.path_sequence.fasta
+    Path2: Lens_lamottei.plastome/embplant_pt.K115.complete.graph1.2.path_sequence.fasta
+GenomeIndex: /Users/yasinkaymaz/Documents/data/Hg38/forGatk/GRCh38_idx
+GenomeFa: /Users/yasinkaymaz/Documents/ChlP_GS/Nurbanu/CladePhylo/AGORA/Lc_agora/NC_027152.1.Lens_culinaris.fasta
+RepeatRegions: /Users/yasinkaymaz/Documents/MedGenetics/BioinfoAnalysis/target_regions_chr.bed

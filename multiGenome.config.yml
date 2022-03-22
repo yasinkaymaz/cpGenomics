@@ -1,0 +1,12 @@
+species:
+    - Lens_lamottei
+    - Lens_tomentosus
+multifasta:
+    - Lcul_Llam
+    - Lcul_ltot
+ReferenceSpecies: NC_027152.1
+GenomeIndex: /Users/yasinkaymaz/Documents/data/Hg38/forGatk/GRCh38_idx
+GenomeFa: /Users/yasinkaymaz/Documents/ChlP_GS/Nurbanu/CladePhylo/AGORA/Lc_agora/NC_027152.1.Lens_culinaris.fasta
+RepeatRegions: /Users/yasinkaymaz/Dropbox/codes/cpGenomics/data/Lens_culinaris.repeats.bed
+RefGeneBed: /Users/yasinkaymaz/Dropbox/codes/cpGenomics/data/Lens_culinaris_CDS_genes.bed
+RefNCGeneBed: /Users/yasinkaymaz/Dropbox/codes/cpGenomics/data/Lens_culinaris_NC_genes.bed

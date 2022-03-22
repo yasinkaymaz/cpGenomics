@@ -1,0 +1,39 @@
+Lens_culinaris	4200	4236	.	-	.	ID=exon-ABY07_gt001-1;Parent=rna-ABY07_gt001;Dbxref=GeneID:24418184;Note=anticodon:UUU;gbkey=tRNA;gene=trnK-UUU;locus_tag=ABY07_gt001;product=tRNA-Lys
+Lens_culinaris	1691	1719	.	-	.	ID=exon-ABY07_gt001-2;Parent=rna-ABY07_gt001;Dbxref=GeneID:24418184;Note=anticodon:UUU;gbkey=tRNA;gene=trnK-UUU;locus_tag=ABY07_gt001;product=tRNA-Lys
+Lens_culinaris	8942	9014	.	-	.	ID=exon-ABY07_gt002-1;Parent=rna-ABY07_gt002;Dbxref=GeneID:24418116;Note=anticodon:CAU;gbkey=tRNA;gene=trnM-CAU;locus_tag=ABY07_gt002;product=tRNA-Met
+Lens_culinaris	9190	9228	.	+	.	ID=exon-ABY07_gt003-1;Parent=rna-ABY07_gt003;Dbxref=GeneID:24418117;Note=anticodon:UAC;gbkey=tRNA;gene=trnV-UAC;locus_tag=ABY07_gt003;product=tRNA-Val
+Lens_culinaris	9801	9837	.	+	.	ID=exon-ABY07_gt003-2;Parent=rna-ABY07_gt003;Dbxref=GeneID:24418117;Note=anticodon:UAC;gbkey=tRNA;gene=trnV-UAC;locus_tag=ABY07_gt003;product=tRNA-Val
+Lens_culinaris	12620	12692	.	-	.	ID=exon-ABY07_gt004-1;Parent=rna-ABY07_gt004;Dbxref=GeneID:24418207;Note=anticodon:GAA;gbkey=tRNA;gene=trnF-GAA;locus_tag=ABY07_gt004;product=tRNA-Phe
+Lens_culinaris	13259	13295	.	-	.	ID=exon-ABY07_gt005-1;Parent=rna-ABY07_gt005;Dbxref=GeneID:24418208;Note=anticodon:UAA;gbkey=tRNA;gene=trnL-UAA;locus_tag=ABY07_gt005;product=tRNA-Leu
+Lens_culinaris	12781	12830	.	-	.	ID=exon-ABY07_gt005-2;Parent=rna-ABY07_gt005;Dbxref=GeneID:24418208;Note=anticodon:UAA;gbkey=tRNA;gene=trnL-UAA;locus_tag=ABY07_gt005;product=tRNA-Leu
+Lens_culinaris	14239	14311	.	+	.	ID=exon-ABY07_gt006-1;Parent=rna-ABY07_gt006;Dbxref=GeneID:24418209;Note=anticodon:UGU;gbkey=tRNA;gene=trnT-UGU;locus_tag=ABY07_gt006;product=tRNA-Thr
+Lens_culinaris	15453	15540	.	-	.	ID=exon-ABY07_gt007-1;Parent=rna-ABY07_gt007;Dbxref=GeneID:24418108;Note=anticodon:GGA;gbkey=tRNA;gene=trnS-GGA;locus_tag=ABY07_gt007;product=tRNA-Ser
+Lens_culinaris	23416	23487	.	+	.	ID=exon-ABY07_gt008-1;Parent=rna-ABY07_gt008;Dbxref=GeneID:24418192;Note=tRNA-;gbkey=tRNA;gene=trnfM-CAU;locus_tag=ABY07_gt008;product=tRNA-Met
+Lens_culinaris	23594	23664	.	-	.	ID=exon-ABY07_gt009-1;Parent=rna-ABY07_gt009;Dbxref=GeneID:24418193;Note=anticodon:UCC;gbkey=tRNA;gene=trnG-UCC;locus_tag=ABY07_gt009;product=tRNA-Gly
+Lens_culinaris	24679	24771	.	+	.	ID=exon-ABY07_gt010-1;Parent=rna-ABY07_gt010;Dbxref=GeneID:24418195;Note=anticodon:UGA;gbkey=tRNA;gene=trnS-UGA;locus_tag=ABY07_gt010;product=tRNA-Ser
+Lens_culinaris	28876	28947	.	-	.	ID=exon-ABY07_gt011-1;Parent=rna-ABY07_gt011;Dbxref=GeneID:24418119;Note=anticodon:GGU;gbkey=tRNA;gene=trnT-GGU;locus_tag=ABY07_gt011;product=tRNA-Thr
+Lens_culinaris	28883	28941	.	-	.	ID=exon-ABY07_gt012-1;Parent=rna-ABY07_gt012;Dbxref=GeneID:24418120;Note=anticodon:CAU;gbkey=tRNA;gene=trnM-CAU;locus_tag=ABY07_gt012;product=tRNA-Met
+Lens_culinaris	29711	29783	.	+	.	ID=exon-ABY07_gt013-1;Parent=rna-ABY07_gt013;Dbxref=GeneID:24418121;Note=anticodon:UUC;gbkey=tRNA;gene=trnE-UUC;locus_tag=ABY07_gt013;product=tRNA-Glu
+Lens_culinaris	29844	29927	.	+	.	ID=exon-ABY07_gt014-1;Parent=rna-ABY07_gt014;Dbxref=GeneID:24418122;Note=anticodon:GUA;gbkey=tRNA;gene=trnY-GUA;locus_tag=ABY07_gt014;product=tRNA-Tyr
+Lens_culinaris	30361	30434	.	+	.	ID=exon-ABY07_gt015-1;Parent=rna-ABY07_gt015;Dbxref=GeneID:24418123;Note=anticodon:GUC;gbkey=tRNA;gene=trnD-GUC;locus_tag=ABY07_gt015;product=tRNA-Asp
+Lens_culinaris	52297	52383	.	-	.	ID=exon-ABY07_gt016-1;Parent=rna-ABY07_gt016;Dbxref=GeneID:24418146;Note=anticodon:GCU;gbkey=tRNA;gene=trnS-GCU;locus_tag=ABY07_gt016;product=tRNA-Ser
+Lens_culinaris	54052	54123	.	+	.	ID=exon-ABY07_gt017-1;Parent=rna-ABY07_gt017;Dbxref=GeneID:24418147;Note=anticodon:UCU;gbkey=tRNA;gene=trnR-UCU;locus_tag=ABY07_gt017;product=tRNA-Arg
+Lens_culinaris	54573	54642	.	+	.	ID=exon-ABY07_gt018-1;Parent=rna-ABY07_gt018;Dbxref=GeneID:24418210;Note=anticodon:UUG;gbkey=tRNA;gene=trnQ-UUG;locus_tag=ABY07_gt018;product=tRNA-Gln
+Lens_culinaris	54744	54814	.	+	.	ID=exon-ABY07_gt019-1;Parent=rna-ABY07_gt019;Dbxref=GeneID:24418211;Note=anticodon:UUG;gbkey=tRNA;gene=trnQ-UUG;locus_tag=ABY07_gt019;product=tRNA-Gln
+Lens_culinaris	67927	68001	.	+	.	ID=exon-ABY07_gt020-1;Parent=rna-ABY07_gt020;Dbxref=GeneID:24418198;Note=anticodon:UGG;gbkey=tRNA;gene=trnP-UGG;locus_tag=ABY07_gt020;product=tRNA-Pro
+Lens_culinaris	67929	67999	.	+	.	ID=exon-ABY07_gt021-1;Parent=rna-ABY07_gt021;Dbxref=GeneID:24418199;Note=anticodon:GGG;gbkey=tRNA;gene=trnP-GGG;locus_tag=ABY07_gt021;product=tRNA-Pro
+Lens_culinaris	68154	68227	.	+	.	ID=exon-ABY07_gt022-1;Parent=rna-ABY07_gt022;Dbxref=GeneID:24418200;Note=anticodon:CCA;gbkey=tRNA;gene=trnW-CCA;locus_tag=ABY07_gt022;product=tRNA-Trp
+Lens_culinaris	90036	90116	.	-	.	ID=exon-ABY07_gt023-1;Parent=rna-ABY07_gt023;Dbxref=GeneID:24418186;Note=anticodon:CAA;gbkey=tRNA;gene=trnL-CAA;locus_tag=ABY07_gt023;product=tRNA-Leu
+Lens_culinaris	95275	95346	.	+	.	ID=exon-ABY07_gt024-1;Parent=rna-ABY07_gt024;Dbxref=GeneID:24418189;Note=anticodon:GAC;gbkey=tRNA;gene=trnV-GAC;locus_tag=ABY07_gt024;product=tRNA-Val
+Lens_culinaris	95662	97152	.	+	.	ID=exon-ABY07_gr004-1;Parent=rna-ABY07_gr004;Dbxref=GeneID:24418190;Note=blatN_hit_rrn16_Mtruncatula_GeSeq-SRS_v1;gbkey=rRNA;gene=rrn16;locus_tag=ABY07_gr004;product=16S ribosomal RNA
+Lens_culinaris	97630	97671	.	+	.	ID=exon-ABY07_gt025-1;Parent=rna-ABY07_gt025;Dbxref=GeneID:24418125;Note=anticodon:GAU;gbkey=tRNA;gene=trnI-GAU;locus_tag=ABY07_gt025;product=tRNA-Ile
+Lens_culinaris	98346	98380	.	+	.	ID=exon-ABY07_gt025-2;Parent=rna-ABY07_gt025;Dbxref=GeneID:24418125;Note=anticodon:GAU;gbkey=tRNA;gene=trnI-GAU;locus_tag=ABY07_gt025;product=tRNA-Ile
+Lens_culinaris	98446	98483	.	+	.	ID=exon-ABY07_gt026-1;Parent=rna-ABY07_gt026;Dbxref=GeneID:24418136;Note=anticodon:UGC;gbkey=tRNA;gene=trnA-UGC;locus_tag=ABY07_gt026;product=tRNA-Ala
+Lens_culinaris	99292	99326	.	+	.	ID=exon-ABY07_gt026-2;Parent=rna-ABY07_gt026;Dbxref=GeneID:24418136;Note=anticodon:UGC;gbkey=tRNA;gene=trnA-UGC;locus_tag=ABY07_gt026;product=tRNA-Ala
+Lens_culinaris	99493	102290	.	+	.	ID=exon-ABY07_gr003-1;Parent=rna-ABY07_gr003;Dbxref=GeneID:24418137;Note=blatN_hit_rrn23-fragment_Mtruncatula_GeSeq-SRS_v1;gbkey=rRNA;gene=rrn23;locus_tag=ABY07_gr003;product=23S ribosomal RNA
+Lens_culinaris	102409	102511	.	+	.	ID=exon-ABY07_gr002-1;Parent=rna-ABY07_gr002;Dbxref=GeneID:24418126;Note=blatN_hit_rrn4.5_Psativum_GeSeq-SRS_v1;gbkey=rRNA;gene=rrn4.5;locus_tag=ABY07_gr002;product=4.5S ribosomal RNA
+Lens_culinaris	102743	102863	.	+	.	ID=exon-ABY07_gr001-1;Parent=rna-ABY07_gr001;Dbxref=GeneID:24418127;Note=blatN_hit_rrn5_Ljaponicus_GeSeq-SRS_v1;gbkey=rRNA;gene=rrn5;locus_tag=ABY07_gr001;product=5S ribosomal RNA
+Lens_culinaris	103126	103199	.	+	.	ID=exon-ABY07_gt027-1;Parent=rna-ABY07_gt027;Dbxref=GeneID:24418128;Note=anticodon:ACG;gbkey=tRNA;gene=trnR-ACG;locus_tag=ABY07_gt027;product=tRNA-Arg
+Lens_culinaris	103417	103489	.	-	.	ID=exon-ABY07_gt028-1;Parent=rna-ABY07_gt028;Dbxref=GeneID:24418138;Note=anticodon:GUU;gbkey=tRNA;gene=trnN-GUU;locus_tag=ABY07_gt028;product=tRNA-Asn
+Lens_culinaris	119118	119197	.	-	.	ID=exon-ABY07_gt029-1;Parent=rna-ABY07_gt029;Dbxref=GeneID:24418165;Note=anticodon:UAG;gbkey=tRNA;gene=trnL-UAG;locus_tag=ABY07_gt029;product=tRNA-Leu
+Lens_culinaris	122914	122967	.	-	.	ID=exon-ABY07_gt030-1;Parent=rna-ABY07_gt030;Dbxref=GeneID:24418124;Note=anticodon:GUG;gbkey=tRNA;gene=trnH-GUG;locus_tag=ABY07_gt030;product=tRNA-His
