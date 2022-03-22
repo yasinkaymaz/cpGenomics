@@ -18,7 +18,8 @@ rule Bowtie2Index:
 
 rule Bowtie2map:
     input:
-        sample=["trimmed/{species}_R1.fastq", "trimmed/{species}_R2.fastq"]
+        sample=["trimmed/{species}_R1.fastq", "trimmed/{species}_R2.fastq"],
+        indexprefix="Reads2Assembly/{species}.Path{path}.bwtindex.1.bt2"
     output: pipe("Reads2Assembly/{species}.Path{path}.readsback.sam")
     params:
         prefix="Reads2Assembly/{species}.Path{path}.bwtindex"
