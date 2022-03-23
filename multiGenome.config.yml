@@ -1,9 +1,6 @@
-species:
-    - Lens_lamottei
-    - Lens_tomentosus
 multifasta:
-    - Lcul_Llam
-    - Lcul_ltot
+    Lcul_Llam: Lens_lamottei_cpDNA
+    Lcul_Ltot: Lens_tomentosus_cpDNA
 ReferenceSpecies: NC_027152.1
 GenomeIndex: /Users/yasinkaymaz/Documents/data/Hg38/forGatk/GRCh38_idx
 GenomeFa: /Users/yasinkaymaz/Documents/ChlP_GS/Nurbanu/CladePhylo/AGORA/Lc_agora/NC_027152.1.Lens_culinaris.fasta

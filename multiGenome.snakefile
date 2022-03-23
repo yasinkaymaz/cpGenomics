@@ -3,8 +3,8 @@
 rule all:
     input: expand("msa/{file}.aligned.fasta", file=config["multifasta"]),
             expand("msa/{file}_pct_dissimilarity.pdf", file=config["multifasta"]),
-            expand("msa/PCvars/{file}.Genes.Ns.Ss.txt", file=config["multifasta"]),
-            expand("msa/NCvars/{file}.NC.Genes.SNVs.txt", file=config["multifasta"])
+            expand("msa/PCvars_{file}/{file}.Genes.Ns.Ss.txt", file=config["multifasta"]),
+            expand("msa/NCvars_{file}/{file}.NC.Genes.SNVs.txt", file=config["multifasta"])
 
 rule MSA:
     input: "msa/{file}.fasta"
@@ -24,7 +24,8 @@ rule snvFind:
     params:
         repf = config["RepeatRegions"],
         RefName = config["ReferenceSpecies"],
-        species = str(config["species"][0])+"_cpDNA"
+        #species = str(config["species"][0])+"_cpDNA"
+        species = lambda wildcards: f"{config['multifasta'][wildcards.file]}"
     script:
         "scripts/SimilarityPlotter.py"
 
@@ -38,30 +39,32 @@ rule PCgeneVars:
     input:
         msaf= "msa/{file}.aligned.fasta"
     output:
-        "msa/PCvars/{file}.Genes.Ns.Ss.txt"
+        "msa/PCvars_{file}/{file}.Genes.Ns.Ss.txt"
     params:
-        species = str(config["species"][0])+"_cpDNA",
+        #species = str(config["species"][0])+"_cpDNA",
         RefName = config["ReferenceSpecies"],
         geneBedf = config["RefGeneBed"],
-        outdir = "msa/PCvars/"
+        outdir = "msa/PCvars_{file}/",
+        species = lambda wildcards: f"{config['multifasta'][wildcards.file]}"
     shell:
         """
         bash ~/Dropbox/codes/CGTools/dNdS_for_CDS.sh {input.msaf} {params.geneBedf} {params.RefName} {params.outdir} &> {params.outdir}/NS.log;
-        mv msa/PCvars/Genes.Ns.Ss.txt msa/PCvars/{wildcards.file}.Genes.Ns.Ss.txt
+        mv msa/PCvars_{wildcards.file}/Genes.Ns.Ss.txt msa/PCvars_{wildcards.file}/{wildcards.file}.Genes.Ns.Ss.txt
         """
 
 rule NCgeneVars:
     input:
         msaf= "msa/{file}.aligned.fasta"
     output:
-        "msa/NCvars/{file}.NC.Genes.SNVs.txt"
+        "msa/NCvars_{file}/{file}.NC.Genes.SNVs.txt"
     params:
-        species = str(config["species"][0])+"_cpDNA",
+        #species = str(config["species"][0])+"_cpDNA",
         RefName = config["ReferenceSpecies"],
         geneBedf = config["RefNCGeneBed"],
-        outdir = "msa/NCvars/"
+        outdir = "msa/NCvars_{file}/",
+        species = lambda wildcards: f"{config['multifasta'][wildcards.file]}"
     shell:
         """
         bash ~/Dropbox/codes/CGTools/SynChanges_for_NCgenes.sh {input.msaf} {params.geneBedf} {params.RefName} {params.outdir} &> {params.outdir}/Syn.log;
-        mv msa/NCvars/NC.Genes.SNVs.txt msa/NCvars/{wildcards.file}.NC.Genes.SNVs.txt
+        mv msa/NCvars_{wildcards.file}/NC.Genes.SNVs.txt msa/NCvars_{wildcards.file}/{wildcards.file}.NC.Genes.SNVs.txt
         """
