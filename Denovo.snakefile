@@ -1,6 +1,8 @@
 
 dockerTag = "latest" #FIXME tagged versions
 
+
+
 rule all:
     input:
         expand("FastQC/{sample}_{num}_fastqc.zip", sample=config["samples"], num=['1', '2']),
